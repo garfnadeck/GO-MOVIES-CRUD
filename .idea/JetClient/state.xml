@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="auth">
+            <authState>
+              <option name="type" value="BEARER" />
+            </authState>
+          </option>
+          <option name="id" value="d18fd840-651e-4365-b3dd-2ebb04a169c6" />
+          <option name="name" value="GO-MOVIES" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="description" value="Get All movies" />
+                <option name="id" value="c5bdb299-9371-479c-96ee-3a2899d13c4e" />
+                <option name="method" value="GET" />
+                <option name="name" value="Get Movies" />
+                <option name="url" value="http://localhost:8080/movies" />
+              </requestState>
+              <requestState>
+                <option name="id" value="59dee43e-c583-4ed8-86cc-e7c2af22567e" />
+                <option name="method" value="GET" />
+                <option name="name" value="Get Single Movie" />
+                <option name="url" value="http://localhost:8080/movies/1" />
+              </requestState>
+              <requestState>
+                <option name="description" value="Delete a movie" />
+                <option name="id" value="cd1d6b31-b36a-4661-967c-42e34a1e1c13" />
+                <option name="method" value="DELETE" />
+                <option name="name" value="Delete" />
+                <option name="url" value="http://localhost:8080/movies/531389" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;id&quot;: &quot;3&quot;,&#10;  &quot;isbn&quot;: &quot;98217398&quot;,&#10;  &quot;title&quot;: &quot;Movie Three&quot;,&#10;  &quot;director&quot;: {&#10;    &quot;firstname&quot;: &quot;Thiago&quot;,&#10;    &quot;lastname&quot;: &quot;Create&quot;&#10;  }&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="description" value="Create a new movie" />
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="c925e29a-4295-44b4-9998-ef8829c0ca8d" />
+                <option name="method" value="POST" />
+                <option name="name" value="Create" />
+                <option name="url" value="http://localhost:8080/movies" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;id&quot;: &quot;2&quot;,&#10;  &quot;isbn&quot;: &quot;1451232&quot;,&#10;  &quot;title&quot;: &quot;Movie ABACAXI&quot;,&#10;  &quot;director&quot;: {&#10;    &quot;firstname&quot;: &quot;Steve&quot;,&#10;    &quot;lastname&quot;: &quot;Smith&quot;&#10;  }&#10;}," />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="48a7daed-7f41-49ac-9f90-a95175f1efc5" />
+                <option name="method" value="PUT" />
+                <option name="name" value="Update" />
+                <option name="url" value="http://localhost:8080/movies/2" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="686237e9-7c79-4ed4-b3da-68326146ce37" />
+  </component>
+</project>
